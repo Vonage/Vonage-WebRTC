@@ -16,7 +16,7 @@ Vonages WebRTC native library in Vonage products. WebRTC is a free, open project
   s.homepage         = 'https://www.vonage.com.es/'
   s.license      = { :type => "Commercial", :text => "https://tokbox.com/support/tos" }
   s.author           = { 'Vonage' => 'vcp_webrtc@vonage.com' }
-  # No need for s.platform info given we are using the deployment attribute for each platform below.
+  s.platform = :osx
   s.osx.deployment_target = '10.10'
   s.source           = { :http => "https://s3.amazonaws.com/artifact.tokbox.com/vonage-webrtc/pod/vonagewebrtc/release/84.0.0-release.50/VonageWebRTC-84.0.0-release.50.zip" }
   s.osx.preserve_paths = 'macos/VonageWebRTC.framework*'
