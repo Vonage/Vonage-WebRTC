@@ -18,7 +18,7 @@ Vonages WebRTC native library in Vonage products. WebRTC is a free, open project
   s.author           = { 'Vonage' => 'vcp_webrtc@vonage.com' }
   s.platform = :osx
   s.osx.deployment_target = '10.10'
-  s.source           = { :http => "https://s3.amazonaws.com/artifact.tokbox.com/vonage-webrtc/pod/vonagewebrtc/release/84.0.0-release.50/VonageWebRTC-84.0.0-release.50.zip" }
+  s.source           = { :http => "https://s3.amazonaws.com/artifact.tokbox.com/vonage-webrtc/pod/vonagewebrtc/release/#{s.version}/VonageWebRTC-#{s.version}.zip" }
   s.osx.preserve_paths = 'macos/VonageWebRTC.framework*'
   s.ios.preserve_paths = 'iphoneos/VonageWebRTC.framework*'
   s.osx.vendored_frameworks = 'macos/VonageWebRTC.framework'
@@ -31,4 +31,3 @@ Vonages WebRTC native library in Vonage products. WebRTC is a free, open project
   s.ios.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
-
