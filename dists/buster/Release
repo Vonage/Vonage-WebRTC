@@ -1,0 +1,37 @@
+Origin: vonage.github.io/vonage-webrtc
+Label: vonage.github.io/vonage-webrtc
+Codename: buster
+Date: Thu, 14 Oct 2021 14:44:10 UTC
+Architectures: amd64 armhf arm64
+Components: main
+Description: Vonage WebRTC Debian repository.
+MD5Sum:
+ 6141b5819eed79c5cd5acfb40779376a 500 main/binary-amd64/Packages
+ 363f936fe0dcc82eb9748ac043a57d46 353 main/binary-amd64/Packages.gz
+ c17f5b5581438a4b3e25144939269bba 159 main/binary-amd64/Release
+ 3b48f2a29b291a16680e694312f706c3 499 main/binary-armhf/Packages
+ 74f5a8fec59f08960b377bd222599fa0 355 main/binary-armhf/Packages.gz
+ e937b04e634364a6ca19cb7a8c504a01 159 main/binary-armhf/Release
+ d1610819d188c3f9b21e15799b68c6bb 499 main/binary-arm64/Packages
+ 5d2f9dca653fd8dd8354987354a09582 354 main/binary-arm64/Packages.gz
+ 1292368b3c19a0212fe5d8d2763cd975 159 main/binary-arm64/Release
+SHA1:
+ ef26cec10a41ae4af5d5749e94b3357a78cea393 500 main/binary-amd64/Packages
+ b3302ed43f9cec13a2a112e81f1209cac56acec1 353 main/binary-amd64/Packages.gz
+ 686ce0293a8ee3fc21316c6851744444184e8641 159 main/binary-amd64/Release
+ 594dc8bb679fd107f003254a045a96ee671b2dfc 499 main/binary-armhf/Packages
+ 0526df56724f703cf72b76aae678824b71c94519 355 main/binary-armhf/Packages.gz
+ 70d59a1435fa6d9c61d7eac363749b559951937e 159 main/binary-armhf/Release
+ b955ea177ddd0b10f70dbe8d4f93fc6659fe57fd 499 main/binary-arm64/Packages
+ 993a767861859dfc2223006947527c5c0bad3c27 354 main/binary-arm64/Packages.gz
+ 1bbb53660e6effb35c8fa6f23afb71a50497d912 159 main/binary-arm64/Release
+SHA256:
+ 12c5d34fca2f496f7f78bbe8c0635a432cfedb7c0c1d21773cec9270ed31b4e5 500 main/binary-amd64/Packages
+ 707978a0333ea30c4bf2b19a370de9cebc08cdd3e78c7909b62e58f2eceb9f72 353 main/binary-amd64/Packages.gz
+ 85bc58420bf541a246a0f0fa1e5d39cabba8cf10f3e5736654e2086403de95d6 159 main/binary-amd64/Release
+ 561aa177b601be125bf1a2dc0e423cdaf46c83c7a6293ddbac34f9eae3843a83 499 main/binary-armhf/Packages
+ 279fa046085986c7e36717828eb80a3c069d7311a30543676127cae6068db10d 355 main/binary-armhf/Packages.gz
+ 6dae23301c4c3b6ca9f4472f6e3391b36d48e54a94653c4f6344f91efedc60ee 159 main/binary-armhf/Release
+ 0c0388778d715694d43908efcd3e4b656968b78f13abe51cdfab790d7735e95b 499 main/binary-arm64/Packages
+ a67c149578c98544532b0657b0949fec577e8770ca9c6ff79c6663843b65ddae 354 main/binary-arm64/Packages.gz
+ 4c604f8a7260366356190cc17400ef71b42b1c7ee101816139e10e7aea4054de 159 main/binary-arm64/Release

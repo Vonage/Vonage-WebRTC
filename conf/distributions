@@ -1,0 +1,23 @@
+Origin: vonage.github.io/vonage-webrtc
+Label: vonage.github.io/vonage-webrtc
+Codename: stretch
+Architectures: amd64 armhf arm64
+Components: main
+Description: Vonage WebRTC Debian repository.
+SignWith: 2E3913FC
+
+Origin: vonage.github.io/vonage-webrtc
+Label: vonage.github.io/vonage-webrtc
+Codename: buster
+Architectures: amd64 armhf arm64
+Components: main
+Description: Vonage WebRTC Debian repository.
+SignWith: 2E3913FC
+
+Origin: vonage.github.io/vonage-webrtc
+Label: vonage.github.io/vonage-webrtc
+Codename: bulleseye
+Architectures: amd64 armhf arm64
+Components: main
+Description: Vonage WebRTC Debian repository.
+SignWith: 2E3913FC
