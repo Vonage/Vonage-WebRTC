@@ -1,11 +1,20 @@
 Origin: vonage.github.io/vonage-webrtc
 Label: vonage.github.io/vonage-webrtc
 Codename: buster
-Date: Thu, 25 Nov 2021 14:57:38 UTC
+Date: Wed, 15 Dec 2021 08:15:34 UTC
 Architectures: amd64 armhf arm64
-Components: 84.0.8 84.0.7 main
+Components: 84.0.9 84.0.8 84.0.7 main
 Description: Vonage WebRTC Debian repository.
 MD5Sum:
+ 52fc2efeadb553bda56394eaef19bd84 504 84.0.9/binary-amd64/Packages
+ 0dbd4bf83acb8a6bd6aec5bd607c074e 350 84.0.9/binary-amd64/Packages.gz
+ 84b39e86b4f288e9ce3a293f3a96dd9c 161 84.0.9/binary-amd64/Release
+ 8c7ebec37257646e6875a17c4c5b4a3c 504 84.0.9/binary-armhf/Packages
+ 9a960a353f72dcd485225f1dd1aa6455 353 84.0.9/binary-armhf/Packages.gz
+ fe4f79bd0848e80a1669ba3539c49f0c 161 84.0.9/binary-armhf/Release
+ 59c1218a6e3917534dfe86b9780e211f 504 84.0.9/binary-arm64/Packages
+ bd46b83abbda53fde3147f7c010545ce 354 84.0.9/binary-arm64/Packages.gz
+ 558217dc84778ef6058c880e34ac29b5 161 84.0.9/binary-arm64/Release
  ce03517f34789f58527d2e5a97907c68 504 84.0.8/binary-amd64/Packages
  4b4419cf2850ff1f0b222b3a40dd7198 355 84.0.8/binary-amd64/Packages.gz
  f5834029d961700e5453967cb1d8f9fa 161 84.0.8/binary-amd64/Release
@@ -34,6 +43,15 @@ MD5Sum:
  a1af7ee49ad16b7126dd55ca8266a5c1 354 main/binary-arm64/Packages.gz
  1292368b3c19a0212fe5d8d2763cd975 159 main/binary-arm64/Release
 SHA1:
+ a94533a0479a7a9223b90fef4c6d99daa15d521c 504 84.0.9/binary-amd64/Packages
+ d32eed0f7a2737a6ee1b082279f993baded6d870 350 84.0.9/binary-amd64/Packages.gz
+ a25dbdbd928d81345d81669c24005f41ccac0865 161 84.0.9/binary-amd64/Release
+ 11fd7a4947aca62822495dbdceaa450c1581dbdc 504 84.0.9/binary-armhf/Packages
+ 3034afe9309b40dc3b945cde62654e74c5233ae0 353 84.0.9/binary-armhf/Packages.gz
+ 76c22efb8c69484b234a833dd15783c224a7fbbf 161 84.0.9/binary-armhf/Release
+ 0a13d626c4ebb203ac97dd1d9266ef871c0647e3 504 84.0.9/binary-arm64/Packages
+ a60a7e7f6e56403dddee8a9cb71a9579c57ede2d 354 84.0.9/binary-arm64/Packages.gz
+ d286e4c5dc07a709795e77b27ee0b459a3eb94f8 161 84.0.9/binary-arm64/Release
  c8b6f8565051a61999de85ed6dbd3492a61b8c32 504 84.0.8/binary-amd64/Packages
  9d0b8f8b52caf1b7e4fb6e6615156bf169bc09ad 355 84.0.8/binary-amd64/Packages.gz
  e0a35219318dd1d31a8fc6ba64392b4b327555ef 161 84.0.8/binary-amd64/Release
@@ -62,6 +80,15 @@ SHA1:
  5f50d1c1c7acbda67dd1d8d8dc42dd6dbcc24145 354 main/binary-arm64/Packages.gz
  1bbb53660e6effb35c8fa6f23afb71a50497d912 159 main/binary-arm64/Release
 SHA256:
+ fc5488a4c957fb3bd080f61759795d587c31c6430552cc7baff8e851c170475d 504 84.0.9/binary-amd64/Packages
+ 297e6b565e669a600707b7e123ce968f613d5d459651ff68cc015627088238a5 350 84.0.9/binary-amd64/Packages.gz
+ 277512adf9bd9b0ab10b169dc3fef4e5ce0339b69d279340c1fcad9aed14807a 161 84.0.9/binary-amd64/Release
+ 21c8d1806932a0f53162a3a6b5258754dda0adab92aef0acd8c68843fab41cd5 504 84.0.9/binary-armhf/Packages
+ 40508077a74ec76a496e89e9810909a13787e5d17e81eb9929645fb85ae098dd 353 84.0.9/binary-armhf/Packages.gz
+ 859962f4a0b7509f9aac083e9d3e429f67f06940666063c979b78ecdc35b76d9 161 84.0.9/binary-armhf/Release
+ b77d74a328a878fbf27ea9803c559348687cd6d1012fc94a9e5f63bed1a49701 504 84.0.9/binary-arm64/Packages
+ 28777004b3a91daad171d88194154d851f2dc190099713a3754200f95b8cb512 354 84.0.9/binary-arm64/Packages.gz
+ bb403e6b080d3cc44b3f092fa0b90c2611a6c48064f84c5ed74f98b5c050d823 161 84.0.9/binary-arm64/Release
  918e7bc317361d1b7fed9ed37f57d94efac4ddfaa295cd282de5f1a467ec62d6 504 84.0.8/binary-amd64/Packages
  ed5bfb90d2fab67e13da8251f711ac9e7762a9b15ec3f137fe594de2150079b7 355 84.0.8/binary-amd64/Packages.gz
  d15d5bf4060922e24a71424da937e1908aec7839bdb2abebc48611fc712d81d5 161 84.0.8/binary-amd64/Release
