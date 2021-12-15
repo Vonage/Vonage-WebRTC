@@ -1,0 +1,13 @@
+Package: libvonagewebrtc-dev
+Version: 84.0.11
+Architecture: amd64
+Maintainer: VCP WebRTC Team - Vonage <vcp_webrtc@vonage.com>
+Priority: optional
+Section: 84.0.11
+Filename: pool/84.0.11/libv/libvonagewebrtc-dev/libvonagewebrtc-dev_84.0.11_amd64.deb
+Size: 53298696
+SHA256: 247ed4b734b05fe5f60db41fa6b21ea360f5bde328a37b761c19512e69a7d229
+SHA1: f5793277b434e63c6478a9a356859a6721deaf1b
+MD5sum: a8c18d27b46bd43df9fe2694bbc9d6d3
+Description: Vonage WebRTC build for Vonage products. See https://www.vonage.com.
+
