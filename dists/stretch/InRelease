@@ -4,11 +4,20 @@ Hash: SHA512
 Origin: vonage.github.io/vonage-webrtc
 Label: vonage.github.io/vonage-webrtc
 Codename: stretch
-Date: Thu, 16 Dec 2021 11:21:27 UTC
+Date: Sun, 19 Dec 2021 09:02:05 UTC
 Architectures: amd64 armhf arm64
-Components: 84.0.14 84.0.13 84.0.12 84.0.11 84.0.10 84.0.9 84.0.8 84.0.7 main
+Components: 84.0.15 84.0.14 84.0.13 84.0.12 84.0.11 84.0.10 84.0.9 84.0.8 84.0.7 main
 Description: Vonage WebRTC Debian repository.
 MD5Sum:
+ 6025f296853b85325c8d0a6918784259 508 84.0.15/binary-amd64/Packages
+ b2b864f26fb3c5624dee0e71465575e1 355 84.0.15/binary-amd64/Packages.gz
+ d04d23f3f55746469be9ff4e92acea4e 162 84.0.15/binary-amd64/Release
+ 967eed4c3beaf2848475d29418801a83 508 84.0.15/binary-armhf/Packages
+ 0e822a6e59c0b799ca9e5e144aa18b2e 350 84.0.15/binary-armhf/Packages.gz
+ c72c6b6c388bb4f83a7f404ba95396c2 162 84.0.15/binary-armhf/Release
+ 3c6b301da36f12bb2d98b1d46c4c5fd1 508 84.0.15/binary-arm64/Packages
+ 54f6adbc0cba9122fa7013f2117832aa 352 84.0.15/binary-arm64/Packages.gz
+ 9d32d6917a20ec1f4b0264770f7d14ad 162 84.0.15/binary-arm64/Release
  b9b67259fb9968fb3416a474a39a888d 508 84.0.14/binary-amd64/Packages
  2f7078609f4d9ec04403587bdf5330fc 356 84.0.14/binary-amd64/Packages.gz
  f58f0954220fcd34cf9fa0e17afea1af 162 84.0.14/binary-amd64/Release
@@ -91,6 +100,15 @@ MD5Sum:
  a1af7ee49ad16b7126dd55ca8266a5c1 354 main/binary-arm64/Packages.gz
  1292368b3c19a0212fe5d8d2763cd975 159 main/binary-arm64/Release
 SHA1:
+ 1a1a53f72a397c48ad6ada60fc346fffb40f4a18 508 84.0.15/binary-amd64/Packages
+ 7d723623e4d98278b683120206b7a1795b7269d6 355 84.0.15/binary-amd64/Packages.gz
+ 28e148ba70187c80f26e0f0481f946cab0338eb8 162 84.0.15/binary-amd64/Release
+ c31889fa66af6cc0d209b0ed9cef85a5cef62f11 508 84.0.15/binary-armhf/Packages
+ ce7d3b8ba8ca03d95f275f22e42616758d4d2dc8 350 84.0.15/binary-armhf/Packages.gz
+ 4428525a4c5e6c7ef5c2d705e80e54fd1db27c9b 162 84.0.15/binary-armhf/Release
+ 208a6883563a335438611aeef2ac3d08774b4475 508 84.0.15/binary-arm64/Packages
+ bf26ea48850d6bb202161e97b750d9965f36a309 352 84.0.15/binary-arm64/Packages.gz
+ 81dfc2b69aecff8dc021a893146a2d77a2c33c03 162 84.0.15/binary-arm64/Release
  bd9bebfe63fefe2cbde400ec3da7c856c071f6ca 508 84.0.14/binary-amd64/Packages
  eff461612e1e39a2979d637d8df22af7166a53ea 356 84.0.14/binary-amd64/Packages.gz
  355ea25baad5586c46c6b19961603fef78847964 162 84.0.14/binary-amd64/Release
@@ -173,6 +191,15 @@ SHA1:
  5f50d1c1c7acbda67dd1d8d8dc42dd6dbcc24145 354 main/binary-arm64/Packages.gz
  1bbb53660e6effb35c8fa6f23afb71a50497d912 159 main/binary-arm64/Release
 SHA256:
+ 66037cf88ab026d5fcdf689ae87bc1155b9a1ed64ca85b666b03ac19733d054b 508 84.0.15/binary-amd64/Packages
+ a43424dcf89a9c3e61e0bd44a31b5d30060c12f6ec92687adeaedb65da4b3fcd 355 84.0.15/binary-amd64/Packages.gz
+ 62d86eeed943dd3bfd23ed0d758e8fc9846c41e7de238455f7ed0f21bffdcbab 162 84.0.15/binary-amd64/Release
+ cbb33dda4ce2a60c9dacb1f56873a952b0a5a96cc5afbf75851a88dfc4ccd5c1 508 84.0.15/binary-armhf/Packages
+ ea7a8e448c983729c1f05443ed337334f5c96a5ff7598e226bcdccc110627db7 350 84.0.15/binary-armhf/Packages.gz
+ c3592bf4e7ef855f6dedc438b23a4e0642b5e9c9ad0ef17e67f374eb6220a133 162 84.0.15/binary-armhf/Release
+ a5791c85101b821607c8725f5a267856862c67b0043fb08fffe1d87c5bd12c60 508 84.0.15/binary-arm64/Packages
+ 3c91f0bf6bccb0ffadfe98eada0513c95b7b9e25d4743f6e9e00f75d86464db3 352 84.0.15/binary-arm64/Packages.gz
+ 9b1ac0c6842907250ba7452a409ad5d9986648b87572a064833c135f46060c97 162 84.0.15/binary-arm64/Release
  9b48de40eba81f85780eebdd4b9c78f0207eb857763e0f4be34d318c677a0ea0 508 84.0.14/binary-amd64/Packages
  ebd8649e4d87f2d368ee533e5ce7e3d8719b176531ede4d808f872c9109a81eb 356 84.0.14/binary-amd64/Packages.gz
  b30a2e0d232da14d0c2d6e7a6c8b6fc6f7cfcbda4c20a3d0e5bc02729e622270 162 84.0.14/binary-amd64/Release
@@ -256,17 +283,17 @@ SHA256:
  4c604f8a7260366356190cc17400ef71b42b1c7ee101816139e10e7aea4054de 159 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEu1y+nXGOpyczI1vQIAs8Py45E/wFAmG7ITcACgkQIAs8Py45
-E/wv4g//Yy06oQLystzjoO19ncbxeCojt9S2Dc45PzpQaffLqA1ew87+HBiHoKN9
-r+J5dTlD4romYXADsrd6t8wyQWlprCg2bT3bFWLW15J8PYFrcL7bN+bfSCNRV0WB
-x3ALF8Iqa4xgrOU3o9xJcGziBoQup78hqr3zc3PnPVUXieCsybN4foocW8L3EinW
-EtOQ9nb9TcDXwV6gz4KmYOT8Raacdt5lPuJVrsVvegpzCcLZnEPLqo+mdAIEnEAH
-hS71/5wbFIxn21myGMvGwuIUNlk+sgf9XOy8HbWuOymP/KeKTNPLa4TMmQNX3mWD
-Due22AV4oT6QGd4CSMUHs4iU9QgiEPSRSpVypLhU6BWBxyHKVvMPc7j8RYkIq9dy
-4BH6YAkG9xK275zGjB4A1Zc3Ln599JCoQNH1USgQS+8PHoFJ+zBIxqgIEv0SOxqY
-xwGUiMRVon/LbK+8i5WeSrZDgwrb+3hyBmIeKBQpzmb1vGlj48m4c38NQriCPWgF
-6PzE6bcqMUBG9O4dXCTqBcrUe8kerCctB68lFzLMQUNQ5HAe/n1niwxQPAnSuocr
-V8ue0Bhnt9F3ues1CnUPwQ/V8IbCg2AOuCFOlXKqgMQlosngSBo9FCQeFhie57Hl
-ipinWDMpzZJoaHmh7z/6amcTu6rjIO2rGo28PW1+DXPiQ2wJw5I=
-=2LrV
+iQIzBAEBCgAdFiEEu1y+nXGOpyczI1vQIAs8Py45E/wFAmG+9Q0ACgkQIAs8Py45
+E/w5dBAAtP482+02AkxVOOBrhLWR0mywYcQZGa4gc826/tP0jQze2db6XqyT54Bg
+l4vTBarU6LFrfWKBYIT7embXen6vfyPeXzkdUsXsfAy87DkPBiL2dFGvgvHXhAbu
+S5r5JIdY/H39Mq1Wmg3qDuV5JWQHzrZcxkZ5e1pI1/ddXpLUSMaJPtSZ/Wnt90Np
+AYGpAg4H4m+xrmZ/JXFkQTk/7fykF2kDOyx4D0fvAMP5eRv1mF3RtK6efxrAacPm
+Z5MwJeaQ9DaF1pRs3JUfdX8nlgalWSK6g6BL4Kf+cIIwoU79TDcz4M2BgoOEtrBP
+GO+WlMOVhAhKxBRS1bM1OaKU2PooZK6RPh3Ugf5oyKZl3V2tUCGqxKRwcsw6qcSj
+Nn++fmPhwtncMbdr/vp4IuTgSuKFC8KqxAqEp5EKktkhwJ5tnuRZwov87G0UTiz7
+rLgSOh7GCMRnaWOXgCsXuHLaSf6BJC8OQ2rho8VhBKhjLMj7nXIbTsqPRYjpOtNo
+eAZ7mVZeorADsHjWce059ZZbWflOGm1uTdb6E2X4oSveOFItMhDn7FnaMZXWh24N
+D/kid6QO5Tu63yTYArHmCPJoQ0W+2jkHYJ1FIczNTPmNLCMEJ68wWF/fEoTULv0Y
+CfvdgoElnSAf9GeSp5VX1tDv7GbOz0h/AhXKXNyx8DsvkBohsYI=
+=Vi+f
 -----END PGP SIGNATURE-----
