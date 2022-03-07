@@ -1,0 +1,5 @@
+Component: 84.0.21
+Origin: vonage.github.io/vonage-webrtc
+Label: vonage.github.io/vonage-webrtc
+Architecture: amd64
+Description: Vonage WebRTC Debian repository.
