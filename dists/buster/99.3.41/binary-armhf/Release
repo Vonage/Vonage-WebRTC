@@ -1,0 +1,5 @@
+Component: 99.3.41
+Origin: vonage.github.io/vonage-webrtc
+Label: vonage.github.io/vonage-webrtc
+Architecture: armhf
+Description: Vonage WebRTC Debian repository.
