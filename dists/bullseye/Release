@@ -1,11 +1,20 @@
 Origin: vonage.github.io/vonage-webrtc
 Label: vonage.github.io/vonage-webrtc
 Codename: bullseye
-Date: Wed, 14 Jun 2023 10:53:48 UTC
+Date: Thu, 15 Jun 2023 15:44:12 UTC
 Architectures: amd64 armhf arm64
-Components: 99.6.4 99.6.3 99.6.2 99.5.1 99.5.53 99.4.52 99.4.51 99.4.50 99.4.49 99.4.48 99.4.47 99.4.46 99.4.44 99.4.42 99.3.41 99.3.40 99.2.39 99.2.38 99.2.37 99.2.36 99.2.35 99.1.34 99.1.33 99.1.32 99.1.31 99.0.30 99.0.28 99.0.27 99.0.26 99.0.25 main
+Components: 99.6.5 99.6.4 99.6.3 99.6.2 99.5.1 99.5.53 99.4.52 99.4.51 99.4.50 99.4.49 99.4.48 99.4.47 99.4.46 99.4.44 99.4.42 99.3.41 99.3.40 99.2.39 99.2.38 99.2.37 99.2.36 99.2.35 99.1.34 99.1.33 99.1.32 99.1.31 99.0.30 99.0.28 99.0.27 99.0.26 99.0.25 main
 Description: Vonage WebRTC Debian repository.
 MD5Sum:
+ a18ca37b76d7f6d4f0447608f86ffafc 504 99.6.5/binary-amd64/Packages
+ 812477db37706ad3aae47ac1bf4536aa 350 99.6.5/binary-amd64/Packages.gz
+ 82e2dbce0557cd0f5255c6831d2aaaec 161 99.6.5/binary-amd64/Release
+ 7008fc9e30cafe1ce03169a465d72c33 504 99.6.5/binary-armhf/Packages
+ 332f0ed47ef709a83f4446b7ec62eb37 351 99.6.5/binary-armhf/Packages.gz
+ 34bdea8c44be96d26ff7de56dfee9e91 161 99.6.5/binary-armhf/Release
+ 0ba50edaf16c9b3df61e8f68f4d41af4 504 99.6.5/binary-arm64/Packages
+ 2c587529c3c925a09bc424dbd5ed1c5b 349 99.6.5/binary-arm64/Packages.gz
+ 1fbe31212de2f88d8f6111574d2aff46 161 99.6.5/binary-arm64/Release
  5ed537f56a515add1a1e6616707a2b38 504 99.6.4/binary-amd64/Packages
  691f4e7b01c920cf3c9442d2dc88eb80 354 99.6.4/binary-amd64/Packages.gz
  f9af4dc46a016a4af75e9284a1fe792f 161 99.6.4/binary-amd64/Release
@@ -286,6 +295,15 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
  1292368b3c19a0212fe5d8d2763cd975 159 main/binary-arm64/Release
 SHA1:
+ b41d32893b55b3789c0e9b1bb57133ecae92f0ca 504 99.6.5/binary-amd64/Packages
+ f39361645c2a44b3f9e663a746ae67abbc10cfe5 350 99.6.5/binary-amd64/Packages.gz
+ f31914d3914572d08b95d0f9ad79222f1492a7e0 161 99.6.5/binary-amd64/Release
+ d00f8587b83ecce29505278c975b3e3ac2a05fbd 504 99.6.5/binary-armhf/Packages
+ 0b1aabc6f91572953a919d1c62607571311c229f 351 99.6.5/binary-armhf/Packages.gz
+ f68b488c447bd6b3cdf0dbd2adb006ca14b0a83d 161 99.6.5/binary-armhf/Release
+ 4d94f51b13c25dd2e6965288105250c8c7a27c3e 504 99.6.5/binary-arm64/Packages
+ 4d3a2777c7084ad5c1f3645aeba00a27147c88d1 349 99.6.5/binary-arm64/Packages.gz
+ 85adff0f70f8275b6facff8b392fcc1d22b5fa34 161 99.6.5/binary-arm64/Release
  f587da53d9d115f4e0bdc853e5a62db9be63dc95 504 99.6.4/binary-amd64/Packages
  f9982184071f43d11537a4af283e272712c71a3f 354 99.6.4/binary-amd64/Packages.gz
  8ed024cd6d8cfdc95c8fa1c2243ff12b9c0dd4e9 161 99.6.4/binary-amd64/Release
@@ -566,6 +584,15 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
  1bbb53660e6effb35c8fa6f23afb71a50497d912 159 main/binary-arm64/Release
 SHA256:
+ ef1c192a5e195aa23a3150ce8d33ec9377f49097f799e939d568c6d5440a21aa 504 99.6.5/binary-amd64/Packages
+ 44b485a6b3ce465d8e1d19a4d09b2f57dd834f0c3ddd478be560458a0d712946 350 99.6.5/binary-amd64/Packages.gz
+ 90590c0fb0b1de0c5e4107566d6075fafbaa84cfcdf7cf0fe29aef2c7d9f70b8 161 99.6.5/binary-amd64/Release
+ 8d275e518cdc25b851aea162df49c2184ef8268de937dc2e15d973d34ff504ad 504 99.6.5/binary-armhf/Packages
+ 916466e49e8afc7ed938e85dc0f5ae8e20028bb03fed25f4c621741085301adb 351 99.6.5/binary-armhf/Packages.gz
+ 24682b82953414f8ebc33d61837844b432d010eae78edb29b8d8009faa7381e5 161 99.6.5/binary-armhf/Release
+ 6c945cc3200586035d86dc6faae99ab672756cbb001d1a372eb01b5aa5591f2a 504 99.6.5/binary-arm64/Packages
+ cc346065566d27da2518f8e6cb06c17efd8d6f3323b1eeaf7845f04868a813b6 349 99.6.5/binary-arm64/Packages.gz
+ fd04b4be5cc3079b97a18bac49768b25f505d5309a97d3a80cdafe848f937feb 161 99.6.5/binary-arm64/Release
  95d71ab5e3ba2dd16a53c79a2cc1b9ccc5eca2b340e616670d2499143b3f43d0 504 99.6.4/binary-amd64/Packages
  18e72cd97842ee89120f5a584d7774b8e9ae556f6f444f34525aa798787db2d4 354 99.6.4/binary-amd64/Packages.gz
  a9645ec98032e1ba75bc890a216acb4be0a6ca7f150012095368762db4180186 161 99.6.4/binary-amd64/Release
