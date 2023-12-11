@@ -1,0 +1,13 @@
+Package: libvonagewebrtc-dev
+Version: 99.10.35
+Architecture: armhf
+Maintainer: VCP WebRTC Team - Vonage <vcp_webrtc@vonage.com>
+Priority: optional
+Section: 99.10.35
+Filename: pool/99.10.35/libv/libvonagewebrtc-dev/libvonagewebrtc-dev_99.10.35_armhf.deb
+Size: 13420448
+SHA256: 3e321561c1a098d636b951dd3c01fc885b560fdd58a9cda1b6e204ef4bad9116
+SHA1: c9646356f0433cea1a140624a6c2cf857c7f58fb
+MD5sum: 5b9c31b4b6730a61996b23e1dd60facc
+Description: Vonage WebRTC build for Vonage products. See https://www.vonage.com.
+
