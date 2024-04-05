@@ -1,0 +1,13 @@
+Package: libvonagewebrtc-dev
+Version: 121.0.0-prealpha.41
+Architecture: arm64
+Maintainer: VCP WebRTC Team - Vonage <vcp_webrtc@vonage.com>
+Priority: optional
+Section: 121.0.0-prealpha.41
+Filename: pool/121.0.0-prealpha.41/libv/libvonagewebrtc-dev/libvonagewebrtc-dev_121.0.0-prealpha.41_arm64.deb
+Size: 59757844
+SHA256: 16c27fbecbb9a377d454139964bec9279f65e59b08152673679d936cddafa10d
+SHA1: 23d3b553ea8320220162b7e14d3d7102cebf5ac9
+MD5sum: 8c2266e13398c643780f9d3f6ae66e29
+Description: Vonage WebRTC build for Vonage products. See https://www.vonage.com.
+
