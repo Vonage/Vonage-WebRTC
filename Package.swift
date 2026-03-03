@@ -8,8 +8,8 @@ import PackageDescription
 let package = Package(
     name: "VonageWebRTC",
     platforms: [
-        .iOS(.v13),
-        .macOS(.v10_15)
+        .iOS(.v9),
+        .macOS(.v10_10)
     ],
     products: [
         .library(
@@ -40,9 +40,6 @@ let package = Package(
                 .linkedFramework("CoreMedia"),
                 .linkedFramework("GLKit"),
                 .linkedFramework("VideoToolbox"),
-                .linkedFramework("CoreAudio"),
-                .linkedFramework("Network"),
-                .linkedFramework("MetalKit"),
                 .linkedLibrary("c++")
             ]
         )
