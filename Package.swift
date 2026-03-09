@@ -24,8 +24,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VonageWebRTC_Binary",
-            url: "https://d3opqjmqzxf057.cloudfront.net/vonage-webrtc/pod/vonagewebrtc/release/99.13.0-alpha.59/VonageWebRTC-99.13.0-alpha.59.zip",
-            checksum: "c680cad0ce0f4bb8f1615a4f2e3597efd22c4282112a9d1a724e89048be3609c"
+            url: "https://d3opqjmqzxf057.cloudfront.net/vonage-webrtc/pod/vonagewebrtc/release/99.13.0-alpha.66/VonageWebRTC-99.13.0-alpha.66.zip",
+            checksum: "d5de59a072ac8b42fac6ab2e786652307a4a9e23ad00e448c1f0d0a37e7eafdc"
         ),
         .target(
             name: "VonageWebRTC",
