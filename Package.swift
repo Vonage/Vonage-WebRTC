@@ -8,8 +8,8 @@ import PackageDescription
 let package = Package(
     name: "VonageWebRTC",
     platforms: [
-        .iOS(.v15),
-        .macOS(.v13)
+        .iOS(.v),
+        .macOS(.v)
     ],
     products: [
         .library(
@@ -24,8 +24,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VonageWebRTC_Binary",
-            url: "https://d3opqjmqzxf057.cloudfront.net/vonage-webrtc/pod/vonagewebrtc/release/121.0.0-dev.426/VonageWebRTC-121.0.0-dev.426.zip",
-            checksum: "3d4972c164ed420971e96f67e23539299ad08d4cb91b21334fa6d3d90636ea58"
+            url: "https://d3opqjmqzxf057.cloudfront.net/vonage-webrtc/pod/vonagewebrtc/release/121.0.0-pr.898/VonageWebRTC-121.0.0-pr.898.zip",
+            checksum: "218d1c229008771a5dea92d1ade2ff77200a701dfba952bda318d0575fba8a37"
         ),
         .target(
             name: "VonageWebRTC",
