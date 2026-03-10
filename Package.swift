@@ -6,15 +6,15 @@ import PackageDescription
 // - The referenced ZIP must contain `VonageWebRTC.xcframework` at the archive root.
 
 let package = Package(
-    name: "VonageWebRTC",
+    name: "Vonage-WebRTC",
     platforms: [
-        .iOS(.v15),
-        .macOS(.v13)
+        .iOS(.v9),
+        .macOS(.v10_10)
     ],
     products: [
         .library(
-            name: "VonageWebRTC",
-            targets: ["VonageWebRTC"]
+            name: "VonageWebRTCWrapper",
+            targets: ["VonageWebRTCWrapper"]
         ),
         .library(
             name: "VonageWebRTC_Binary",
@@ -24,15 +24,15 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VonageWebRTC_Binary",
-            url: "https://d3opqjmqzxf057.cloudfront.net/vonage-webrtc/pod/vonagewebrtc/release/122.0.0-dev.362/VonageWebRTC-122.0.0-dev.362.zip",
-            checksum: "334442dce91413e0a8cb429cfb955987acb08a99a6d04fcfd5850cb012e3743b"
+            url: "https://d3opqjmqzxf057.cloudfront.net/vonage-webrtc/pod/vonagewebrtc/release/84.0.19/VonageWebRTC-XC-84.0.19.zip",
+            checksum: "80115d187fbd8abc41b9b1154100140fc16c2080bc4ac4cdb7d51bd1a6b88ef3"
         ),
         .target(
-            name: "VonageWebRTC",
+            name: "VonageWebRTCWrapper",
             dependencies: [
                 .target(name: "VonageWebRTC_Binary")
             ],
-            path: "Sources/VonageWebRTC",
+            path: "Sources/VonageWebRTCWrapper",
             linkerSettings: [
                 .linkedFramework("AVFoundation"),
                 .linkedFramework("AudioToolbox"),
@@ -40,9 +40,6 @@ let package = Package(
                 .linkedFramework("CoreMedia"),
                 .linkedFramework("GLKit"),
                 .linkedFramework("VideoToolbox"),
-                .linkedFramework("CoreAudio"),
-                .linkedFramework("Network"),
-                .linkedFramework("MetalKit"),
                 .linkedLibrary("c++")
             ]
         )
